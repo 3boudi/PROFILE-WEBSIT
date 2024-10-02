@@ -38,7 +38,7 @@ header {
 
 .logo {
     font-size: 3rem;
-    color: brown;
+    color: #90EE90;
     font-weight: 800;
     transition: 0.5s ease;
     cursor: pointer;
@@ -58,24 +58,23 @@ nav a {
 }
 
 nav a:hover {
-    color: #b74b4b;
-    border-bottom: 3px solid #b74b4b;
+    color: #013b0f;
+    border-bottom: 3px solid #90EE90;
 }
 
 nav a.active {
-    color: #b74b4b;
-    border-bottom: 3px solid #b74b4b;
+    color: #90EE90;
+    border-bottom: 3px solid #90EE90;
 }
 
 @media (max-width: 995px) {
     nav {
         position: absolute;
-        
         top: 100%;
         right: 0;
         width: 40%;
-        border-left: 3px solid #b74b4b;
-        border-bottom: 3px solid #b74b4b;
+        border-left: 3px solid #90EE90;
+        border-bottom: 3px solid #90EE90;
         border-bottom-left-radius: 2rem;
         padding: 1rem;
         background-color: black;
@@ -96,52 +95,57 @@ nav a.active {
     nav a.active {
         padding: 1rem;
         border-radius: 0.5rem;
-        border-bottom: 0.5rem solid brown;
+        border-bottom: 0.5rem solid #90EE90;
     }
 }
+
 section{
     min-height: 100vh;
     padding: 5rem 9% 5rem;
 }
+
 .home{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 8rem;
     background-color: black;
-
 }
+
 .home .home-content h1{
     font-size: 6rem;
     font-weight: 700;
     line-height: 1.3;
-
 }
+
 span{
-    color:brown ;
-
+    color: #90EE90;
 }
+
 .home-content h3 {
     font-size:4rem ;
     margin-bottom: 1rem;
     font-weight: 700;
 }
+
 .home-img{
     border-radius: 50;
 }
+
 .home-img img {
     position: relative;
     width: 32vw;
-    border-radius: 50%;
-    box-shadow: 0 0 25px solid brown;
+    border-radius: 40%;
+    box-shadow: 0 0 25px solid #90EE90;
     cursor: pointer;
     transition: 0.2s linear;
 } 
+
 .home-img img:hover{
     font-size:1.8rem;
     font-weight: 500;
-
 }
+
 .social-icons a{
     display: inline-flex;
     justify-content: center;
@@ -149,57 +153,56 @@ span{
     width: 4rem;
     height: 4rem;
     background-color: transparent black;
-    border: 0.2rem solid brown;
+    border: 0.2rem solid #90EE90;
     font-size: 2rem;
     border-radius:50%;
     margin: 3rem 1.5rem 3rem 0;
     transition: 0.3s ease;
     color: white;
-
 }
+
 .social-icons a:hover{
     color: black;
-    transform: scale(1.3)translateY(-5px);
-    background-color:brown;
-    box-shadow:0 0 25px brown;
-
+    transform: scale(1.3) translateY(-5px);
+    background-color: #90EE90;
+    box-shadow: 0 0 25px #90EE90;
 }
+
 .btn{
     display: inline-block;
     padding: 1rem 2.8rem;
     background-color: black;
     border-radius: 4rem;
     font-size: 1.6rem;
-    color: #b74b4b;
+    color: #013b0f;
     letter-spacing:0.3rem ;
     font-weight: 600;
-    border: 2px solid brown;
+    border: 2px solid #90EE90;
     transition: 0.3 ease;
     cursor: pointer;
-
-
 }
+
 .btn:hover{
-    transform:  scale3d(1.03);
-    background-color: brown;
+    transform: scale3d(1.03);
+    background-color: #90EE90;
     color: black;
-    box-shadow: 0 0 25px brown;
-
+    box-shadow: 0 0 25px #90EE90;
 }
+
 .typing-text{
     font-size: 34px; 
     font-weight: 600;
     min-width: 280px;
-
 }
+
 .typing-text span::before{
-    content:"computer science eng";
-    color:#b74b4b;
-    animation:words 20s infinite;
-
+    content: "computer science eng";
+    color: #013b0f;
+    animation: words 20s infinite;
 }
+
 .typing-text span::after{
-    content:"" ;
+    content:"";
     background-color: black;
     position: absolute;
     width: calc(100% + 8px);
@@ -207,30 +210,22 @@ span{
     border-left: 3px solid black;
     right: -8;
     animation: cursor 0.6s infinite;
-
 }
-
-
 
 @keyframes words{
     0% ,40% {
-         content: "computer science eng";
-    
+         content: "computer science eng st";
     }
-    41%,80%{
-        content: "started learn about web";
-}
-    81%,100% {
-    content: "not marry yet";
-
- }
+    41%,100%{
+         content: "started learn about web";
+    }
 
 }
+
 @media(max-width:995px){
     .home{
         flex-direction: column;
         margin: 5rem 4rem;
-
     }
     .home .home-content h3 {
         font-size: 2.5rem;
@@ -242,5 +237,4 @@ span{
         width:70vh ;
         margin-top: 4rem;
     }
-
 }
