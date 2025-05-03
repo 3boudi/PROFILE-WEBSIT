@@ -153,16 +153,16 @@ span {
     color: #8b4513; /* Changed from #013b0f to brown */
     letter-spacing: 0.3rem;
     font-weight: 600;
-    border: 2px solid #1a3a8a; /* Changed from #90EE90 to dark blue */
+    border: 2px solid #8b4513; /* Changed from #90EE90 to dark blue */
     transition: 0.3s ease;
     cursor: pointer;
 }
 
 .btn:hover {
     transform: scale(1.03);
-    background-color: #1a3a8a; /* Changed from #90EE90 to dark blue */
+    background-color: #8b4513; /* Changed from #90EE90 to dark blue */
     color: black;
-    box-shadow: 0 0 25px #1a3a8a; /* Changed from #90EE90 to dark blue */
+    box-shadow: 0 0 25px #8b4513; /* Changed from #90EE90 to dark blue */
 }
 
 .typing-text {
