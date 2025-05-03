@@ -38,7 +38,7 @@ header {
 
 .logo {
     font-size: 3rem;
-    color: #90EE90;
+    color: #1a3a8a; /* Changed from #90EE90 to dark blue */
     font-weight: 800;
     transition: 0.5s ease;
     cursor: pointer;
@@ -63,19 +63,19 @@ nav a {
 }
 
 nav a:hover {
-    color: #013b0f;
-    border-bottom: 3px solid #90EE90;
+    color: #8b4513; /* Changed from #013b0f to brown */
+    border-bottom: 3px solid  #8b4513; /* Changed from #90EE90 to dark blue */
 }
 
 nav a.active {
-    color: #90EE90;
-    border-bottom: 3px solid #90EE90;
+    color: #1a3a8a; /* Changed from #90EE90 to dark blue */
+    border-bottom: 3px solid #1a3a8a; /* Changed from #90EE90 to dark blue */
 }
 
 .menu-icon {
     display: none;
     font-size: 3rem;
-    color: #90EE90;
+    color: #1a3a8a; /* Changed from #90EE90 to dark blue */
     cursor: pointer;
     z-index: 101;
 }
@@ -100,7 +100,7 @@ section {
 }
 
 span {
-    color: #90EE90;
+    color: #1a3a8a; /* Changed from #90EE90 to dark blue */
 }
 
 .home-content h3 {
@@ -113,7 +113,7 @@ span {
     width: 100%;
     max-width: 32vw;
     border-radius: 40%;
-    box-shadow: 0 0 25px rgba(144, 238, 144, 0.5);
+    box-shadow: 0 30px 50px rgba(255, 162, 56, 0.5); /* Changed from rgba(144, 238, 144, 0.5) to dark blue */
     cursor: pointer;
     transition: 0.2s linear;
 } 
@@ -129,7 +129,7 @@ span {
     width: 4rem;
     height: 4rem;
     background-color: transparent;
-    border: 0.2rem solid #90EE90;
+    border: 0.2rem solid #1a3a8a; /* Changed from #90EE90 to dark blue */
     font-size: 2rem;
     border-radius: 50%;
     margin: 3rem 1.5rem 3rem 0;
@@ -140,8 +140,8 @@ span {
 .social-icons a:hover {
     color: black;
     transform: scale(1.3) translateY(-5px);
-    background-color: #90EE90;
-    box-shadow: 0 0 25px #90EE90;
+    background-color: #1a3a8a; /* Changed from #90EE90 to dark blue */
+    box-shadow: 0 0 25px #1a3a8a; /* Changed from #90EE90 to dark blue */
 }
 
 .btn {
@@ -150,19 +150,19 @@ span {
     background-color: black;
     border-radius: 4rem;
     font-size: 1.6rem;
-    color: #013b0f;
+    color: #8b4513; /* Changed from #013b0f to brown */
     letter-spacing: 0.3rem;
     font-weight: 600;
-    border: 2px solid #90EE90;
+    border: 2px solid  #8b4513; /* Changed from #90EE90 to dark blue */
     transition: 0.3s ease;
     cursor: pointer;
 }
 
 .btn:hover {
     transform: scale(1.03);
-    background-color: #90EE90;
+    background-color: #8b4513; /* Changed from #90EE90 to dark blue */
     color: black;
-    box-shadow: 0 0 25px #90EE90;
+    box-shadow: 0 0 25px #8b4513; /* Changed from #90EE90 to dark blue */
 }
 
 .typing-text {
@@ -175,7 +175,7 @@ span {
 
 .typing-text span::before {
     content: "computer science eng";
-    color: #013b0f;
+    color: #8b4513; /* Changed from #013b0f to brown */
     animation: words 20s infinite;
 }
 
@@ -185,7 +185,7 @@ span {
     position: absolute;
     width: 2px;
     height: 100%;
-    border-left: 3px solid #90EE90;
+    border-left: 3px solid #1a3a8a; /* Changed from #90EE90 to dark blue */
     right: -8px;
     animation: cursor 0.6s infinite steps(2);
 }
@@ -239,7 +239,7 @@ span {
 .close-btn {
     margin-top: 15px;
     padding: 10px 20px;
-    background: #90EE90;
+    background: #1a3a8a; /* Changed from #90EE90 to dark blue */
     color: black;
     border: none;
     border-radius: 5px;
@@ -301,8 +301,8 @@ span {
         right: 0;
         width: 70%;
         background-color: rgba(0, 0, 0, 0.95);
-        border-left: 3px solid #90EE90;
-        border-bottom: 3px solid #90EE90;
+        border-left: 3px solid #1a3a8a; /* Changed from #90EE90 to dark blue */
+        border-bottom: 3px solid #1a3a8a; /* Changed from #90EE90 to dark blue */
         border-bottom-left-radius: 2rem;
         padding: 2rem;
         z-index: 999;
