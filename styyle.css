@@ -64,7 +64,7 @@ nav a {
 
 nav a:hover {
     color: #8b4513; /* Changed from #013b0f to brown */
-    border-bottom: 3px solid  #8b4513; /* Changed from #90EE90 to dark blue */
+    border-bottom: 3px solid #1a3a8a; /* Changed from #90EE90 to dark blue */
 }
 
 nav a.active {
@@ -113,7 +113,7 @@ span {
     width: 100%;
     max-width: 32vw;
     border-radius: 40%;
-    box-shadow: 0 30px 50px rgba(255, 162, 56, 0.5); /* Changed from rgba(144, 238, 144, 0.5) to dark blue */
+    box-shadow: 0 0 25px rgba(26, 58, 138, 0.5); /* Changed from rgba(144, 238, 144, 0.5) to dark blue */
     cursor: pointer;
     transition: 0.2s linear;
 } 
@@ -153,16 +153,16 @@ span {
     color: #8b4513; /* Changed from #013b0f to brown */
     letter-spacing: 0.3rem;
     font-weight: 600;
-    border: 2px solid  #8b4513; /* Changed from #90EE90 to dark blue */
+    border: 2px solid #1a3a8a; /* Changed from #90EE90 to dark blue */
     transition: 0.3s ease;
     cursor: pointer;
 }
 
 .btn:hover {
     transform: scale(1.03);
-    background-color: #8b4513; /* Changed from #90EE90 to dark blue */
+    background-color: #1a3a8a; /* Changed from #90EE90 to dark blue */
     color: black;
-    box-shadow: 0 0 25px #8b4513; /* Changed from #90EE90 to dark blue */
+    box-shadow: 0 0 25px #1a3a8a; /* Changed from #90EE90 to dark blue */
 }
 
 .typing-text {
@@ -230,6 +230,8 @@ span {
     position: relative;
     transform: scale(0.8);
     transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
 }
 
 .popup.active .popup-content {
@@ -237,13 +239,15 @@ span {
 }
 
 .close-btn {
-    margin-top: 15px;
-    padding: 10px 20px;
-    background: #1a3a8a; /* Changed from #90EE90 to dark blue */
-    color: black;
+    margin-top: 5px;
+    padding: 12px 20px;
+    background: #1a3a8a;
+    color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-size: 1.8rem;
+    width: 100%;
 }
 
 #phone {
@@ -345,10 +349,7 @@ span {
         max-width: 70vw;
     }
     
-    .social-icons {
-        justify-content: center;
-        display: flex;
-    }
+    
 }
 
 /* Small mobile devices */
@@ -377,9 +378,17 @@ span {
         max-width: 85vw;
     }
     
-    .popup-content {
-        padding: 15px;
-        max-width: 90%;
+   
+    
+    
+    #phone {
+        font-size: 2.2rem;
+        margin: 2.5rem 0;
+    }
+    
+    .close-btn {
+        font-size: 2rem;
+        padding: 1.2rem;
     }
     
     .btn {
@@ -387,10 +396,5 @@ span {
         font-size: 1.4rem;
     }
     
-    .social-icons a {
-        width: 3.5rem;
-        height: 3.5rem;
-        font-size: 1.8rem;
-        margin: 2rem 1rem;
-    }
+
 }
